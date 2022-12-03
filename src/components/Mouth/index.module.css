@@ -1,0 +1,8 @@
+.Mouth {
+  position: absolute;
+  min-height: 5vh;
+  width: calc(10px + 10vmin);
+  height: calc(10px + 10vmin);
+  top: 31vmin;
+  bottom: 0;
+}

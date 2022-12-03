@@ -1,0 +1,8 @@
+.Hair {
+    position: absolute;
+    min-height: 20vh;
+    width: calc(10px + 40vmin);
+    height: calc(10px + 40vmin);
+    top: 2vmin;
+    bottom: 0;
+  }

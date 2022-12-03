@@ -1,0 +1,36 @@
+
+Button {
+  width: 5vh;
+  height: 5vh;
+  border: "8px solid #AF1FFF";
+  border-radius: 50px;
+}
+
+.App {
+  position: relative;
+  background-color: #fff;
+  width: 80vh;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #282c34;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.row-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  background-color: yellow;
+  margin: 1vh;;
+}
+

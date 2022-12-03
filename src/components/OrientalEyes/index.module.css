@@ -1,0 +1,10 @@
+.OrientalEyes {
+  position: absolute;
+  min-height: 100vh;
+  width: calc(10px + 20vmin);
+  height: calc(10px + 20vmin);
+  top: 69vmin;
+  bottom: 0;
+  left: 29.5vmin;
+  margin: auto;
+}

@@ -1,0 +1,10 @@
+.Eyes {
+  position: absolute;
+  min-height: 100vh;
+  width: calc(10px + 15vmin);
+  height: calc(10px + 15vmin);
+  top: 70vmin;
+  bottom: 0;
+  left: 32vmin;
+  margin: auto;
+}

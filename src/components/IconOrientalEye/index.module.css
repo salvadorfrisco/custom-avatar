@@ -1,0 +1,7 @@
+.IconOrientalEye {
+  position: absolute;
+  min-height: 5vh;
+  width: calc(10px + 24vmin);
+  height: calc(10px + 24vmin);
+  bottom: 0;
+}

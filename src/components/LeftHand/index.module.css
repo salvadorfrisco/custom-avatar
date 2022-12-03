@@ -1,0 +1,14 @@
+.LeftHand {
+  position: absolute;
+  min-height: 80vh;
+  width: calc(10px + 8vmin);
+  height: calc(10px + 8vmin);
+  top: 94vmin;
+  bottom: 0;
+  padding-right: 19vmin;
+  margin: auto;
+  -webkit-transform: scaleX(-1);
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  transform: scaleX(-1);
+}

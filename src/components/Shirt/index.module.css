@@ -1,0 +1,8 @@
+.Shirt {
+  position: absolute;
+  min-height: 20vh;
+  width: calc(10px + 42vmin);
+  height: calc(10px + 42vmin);
+  top: 35vmin;
+  margin-right: 1vmin;
+}

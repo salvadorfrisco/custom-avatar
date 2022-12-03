@@ -1,0 +1,9 @@
+.Nose {
+  position: relative;
+  min-height: 100vh;
+  width: calc(10px + 3vmin);
+  height: calc(10px + 3vmin);
+  top: 37vmin;
+  bottom: 0;
+  margin: auto;
+}
