@@ -1,7 +1,6 @@
 .Shoes {
   position: absolute;
-  min-height: 100vh;
-  width: calc(10px + 22vmin);
-  height: calc(10px + 22vmin);
-  top: 66vmin;
+  width: 22vh;
+  height: 22vh;
+  top: 63vh;
 }

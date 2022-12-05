@@ -21,22 +21,23 @@ function App() {
   const [colorEyes, setColorEyes] = useState("black");
   const [orientalEyes, setOrientalEyes] = useState(false);
 
+  const handleEyes = () => setOrientalEyes(!orientalEyes);
+
   return (
     <>
-      <Box className='App'>
+      <Box className='Avatar'>
         <Shoes />
         <Pants />
         <RightHand />
         <LeftHand />
         <Shirt />
         <Head colorHair='#DDD6AE' colorFace='#FFE6CE' />
-        <Hair color='#000' />
-        <Box onClick={() => setOrientalEyes(!orientalEyes)}>
-        {orientalEyes && <OrientalEyes color={colorEyes} />}
-        {!orientalEyes && <Eyes color={colorEyes} />}
-        </Box>
         <Nose />
         <Mouth />
+        <Hair color='#000' />
+        <Box onClick={handleEyes}>
+          {orientalEyes ? <OrientalEyes color={colorEyes} /> : <Eyes color={colorEyes} />}
+        </Box>
       </Box>
       <Box
         sx={{

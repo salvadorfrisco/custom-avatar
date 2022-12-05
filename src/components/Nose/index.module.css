@@ -1,9 +1,7 @@
 .Nose {
-  position: relative;
-  min-height: 100vh;
-  width: calc(10px + 3vmin);
-  height: calc(10px + 3vmin);
-  top: 37vmin;
-  bottom: 0;
-  margin: auto;
+  position: absolute;
+  width: 4.4vh;
+  top: 25vh;
+  left: 46.4%;
+  z-index: 1;
 }

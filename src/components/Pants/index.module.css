@@ -1,9 +1,6 @@
 .Pants {
     position: absolute;
-    min-height: 100vh;
-    width: calc(10px + 26vmin);
-    height: calc(10px + 26vmin);
-    top: 94vmin;
-    bottom: 0;
-    margin: auto;
+    width: 26vh;
+    height: 26vh;
+    top: 41vh;    
   }

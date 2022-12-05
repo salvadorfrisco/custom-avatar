@@ -1,9 +1,8 @@
 .Head {
     position: absolute;
-    min-height: 100vh;
-    width: calc(10px + 26vmin);
-    height: calc(10px + 26vmin);
-    top: 46vmin;
-    bottom: 0;
-    margin: auto;
+    min-height: 30vh;
+    width: 26vh;
+    height: 26vh;
+    left: 33%;
+    top: 11vh;
   }

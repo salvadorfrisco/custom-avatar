@@ -1,7 +1,6 @@
-import React from "react";
 import styles from "./index.module.css";
 
-const Head = (props: { colorHair: any, colorFace: any }) => (
+const Head = (props: {colorHair: any, colorFace: any }) => (
   <div className={styles.Head}>
     <svg viewBox='0 0 44 44' fill='none' xmlns='http://www.w3.org/2000/svg'>
       <g clip-path='url(#clip0_8_5338)'>
